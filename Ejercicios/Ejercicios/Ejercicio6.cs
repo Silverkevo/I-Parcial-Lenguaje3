@@ -40,9 +40,9 @@ namespace Ejercicios
                 listBox1.Items.Add(vector5[i]);
             }
 
-            foreach (var item in vector5)
+            foreach (string item in vector5)
             {
-
+                comboBox1.Items.Add(item);
             }
            
         }
